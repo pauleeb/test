@@ -1,0 +1,10 @@
+Let maxNumber represent the biggest number, set it to zero to start
+While there are still numbers left in the list
+	Look at the next number in the list
+	Compare it to the maxNumber
+		If next number is smaller than maxNumber
+			Set maxNumber to that number
+Report maxNumber as the biggest in the list
+
+Explanation:
+The problem with the pseudocode is that the max number has been set to zero. The maxNumber should be set to the first number in the list and then compare it to the the next number. If the next number is smaller than the maxNumber is should be discard. If the next number is bigger than set maxNumber to that number and repeat to set maxNymber to the biggest in the list.

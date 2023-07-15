@@ -39,7 +39,7 @@ ul, ol, li {
   width: 92px;
   text-align: center;
 }
-.nav__pages-link, .nav__sections-link {
+.nav__pages-link, .nav__sections-link, .nav__sections-link--highlight {
   text-decoration: none;
   color: #000000;
   display: flex;
@@ -55,6 +55,7 @@ ul, ol, li {
   background: black;
   color: white;
 }
+
 .nav__logo-img {
   padding: 15px;
 }
@@ -97,6 +98,10 @@ ul, ol, li {
 .header__copy--uppercase, .header__tagline--uppercase {
   text-transform: uppercase;
 }
+.header__copy--uppercasebold {
+  text-transform: uppercase; 
+  font-weight: bold;
+}
 .header__copy {
   margin: 0 0 90px;
 }
@@ -104,27 +109,39 @@ ul, ol, li {
   margin: 0;
 }
 
-.features {
+.features, .breakdown {
   padding: 0 5%;
   background: #F4EEE5;
   padding-top: 5%;
   padding-bottom: 5%;
 }
-.features__container {
+.features__container,.breakdown__container {
   padding: 0 5%;
   display: flex;
   justify-content: space-between;
   background: white;
 }
-.features__column {
+.features__column, .breakdown__column {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.features__title {
+.features__title, .breakdown__title {
   font-family: "Chivo", Arial, Helvetica, sans-serif;
   font-size: 32px;
   margin: 0;
+}
+.breakdown__column h3 {
+  font-family: "Chivo", Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  margin: 0;
+  padding:0px;
+}
+.breakdown__column p {
+  font-family: "Chivo", Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  margin: 0;
+  padding:2px;
 }
 .features__list-item {
   font-family: "Overpass", Arial, Helvetica, sans-serif;
